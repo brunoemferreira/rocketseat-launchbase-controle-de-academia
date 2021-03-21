@@ -1,0 +1,18 @@
+<html>
+   <head>
+      {% block head %}
+        <title>Gym Manager</title>
+      {% endblock %} 
+   </head>
+   <body>
+      <header>
+        <div class="links">
+          <a href="/">Instructors</a>
+          <a href="/menbers">Members</a>
+        </div>
+      </header>
+
+      {% block content %}{% endblock %}
+
+   </body>
+</html>
