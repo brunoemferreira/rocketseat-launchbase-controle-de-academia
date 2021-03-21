@@ -24,7 +24,10 @@ body{
   font-size: 22px;
 }
 
-.links a{
+.links a + a{
   margin-left: 32px;
+}
+
+.links a{
   text-decoration: none;
 }
